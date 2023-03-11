@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Data Provider ITestContext Suite">
+	<test name="testMethod1">
+		<classes>
+			<class name="com.testing.dataprovider.ITestContextExample2"></class>
+		</classes>
+	</test>
+	
+		<test name="testMethod2">
+		<classes>
+			<class name="com.testing.dataprovider.ITestContextExample2"></class>
+		</classes>
+	</test>
+</suite>
