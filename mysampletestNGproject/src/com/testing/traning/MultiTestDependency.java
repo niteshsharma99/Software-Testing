@@ -22,9 +22,14 @@ public class MultiTestDependency {
 		System.out.println("Processing the data!");
 	}
 
-	@Test //(dependsOnMethods={"process","init"})
+	@Test //(dependsOnMethods="process")
 	public void stop() {
 		System.out.println("Stopping the server");
 	}
+	
+//	@Test //(dependsOnMethods={"process","init"})
+//	public void stop() {
+//		System.out.println("Stopping the server");
+//	}
 
 }

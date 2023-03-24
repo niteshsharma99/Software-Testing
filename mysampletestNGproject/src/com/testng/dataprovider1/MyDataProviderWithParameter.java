@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 public class MyDataProviderWithParameter {
 
 	@DataProvider(name="NumberInputs")
-	public Object[][] getDataFromDataProvider(Method m){
+	public static Object[][] getDataFromDataProvider(Method m){
 		if(m.getName().equalsIgnoreCase("sumOfTwoNumbersMethodOne")) {
 		return new Object[][]
 				{

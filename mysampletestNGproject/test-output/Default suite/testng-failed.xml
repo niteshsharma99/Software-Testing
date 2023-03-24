@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testing.dataprovider.ITestContextExample2">
+      <class name="com.testing.Itestlistener.ITestListenerDemo">
         <methods>
-          <include name="testMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="myTest3"/>
+          <include name="myTest2"/>
         </methods>
-      </class> <!-- com.testing.dataprovider.ITestContextExample2 -->
+      </class> <!-- com.testing.Itestlistener.ITestListenerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
