@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Parameters]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Test@12345"/>
+  <parameter name="browser" value="Mozilla"/>
+  <parameter name="userName" value="niteshsharma@gmail.com"/>
+  <test thread-count="5" name="Test Parameter via XML file(failed)">
+    <classes>
+      <class name="package1.TestParameter">
+        <methods>
+          <include name="testCaseTwo"/>
+        </methods>
+      </class> <!-- package1.TestParameter -->
+    </classes>
+  </test> <!-- Test Parameter via XML file(failed) -->
+</suite> <!-- Failed suite [Test Parameters] -->
